@@ -83,4 +83,7 @@ export class Switch extends SwitchBase {
     [backgroundInternalProperty.setNative](value: any) {
         //
     }
+    _redrawNativeBackground(): void {
+        //
+    }
 }

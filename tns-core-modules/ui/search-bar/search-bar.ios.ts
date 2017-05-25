@@ -142,6 +142,9 @@ export class SearchBar extends SearchBarBase {
     [backgroundInternalProperty.setNative](value: any) {
         //
     }
+    _redrawNativeBackground(): void {
+        //
+    }
 
     [textProperty.getDefault](): string {
         return '';

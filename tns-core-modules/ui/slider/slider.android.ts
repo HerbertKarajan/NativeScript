@@ -133,4 +133,7 @@ export class Slider extends SliderBase {
     [backgroundInternalProperty.setNative](value: Background) {
         //
     }
+    _redrawNativeBackground(): void {
+        //
+    }
 }

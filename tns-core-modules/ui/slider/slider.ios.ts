@@ -36,7 +36,7 @@ export class Slider extends SliderBase {
 
     constructor() {
         super();
-        this.nativeView = this._ios = UISlider.new();
+        this.setNativeView(this._ios = UISlider.new());
 
         // default values
         this._ios.minimumValue = 0;
@@ -89,6 +89,9 @@ export class Slider extends SliderBase {
         return null;
     }
     [backgroundInternalProperty.setNative](value: Background) {
+        //
+    }
+    _redrawNativeBackground(): void {
         //
     }
 }

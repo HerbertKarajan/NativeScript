@@ -71,4 +71,7 @@ export class Progress extends ProgressBase {
     [backgroundInternalProperty.setNative](value: Color) {
         //
     }
+    _redrawNativeBackground(): void {
+        //
+    }
 }

@@ -344,4 +344,7 @@ export class ActionBar extends ActionBarBase {
     }
     [backgroundInternalProperty.setNative](value: UIColor) { // tslint:disable-line
     }
+    _redrawNativeBackground(): void {
+        //
+    }
 }
